@@ -37,11 +37,14 @@ app.post('/upload', (req,res)=>{
     })
 })
 app.listen(5000, ()=> console.log('Server Started..'))`
-6) npm run serve
 
 ## To setup react app, use following command
-
-1) npx create-react-app <foldername>
-2) npm i axios
-3) add following line to package.json
+1) create folder name "client" in root directory and create react app inside that
+2) npx create-react-app <foldername>
+3) npm i axios
+4) add following line to package.json
 `"proxy": "http://localhost:5000"`
+
+### Get out of client folder and run `npm run dev`
+
+#### Below is screenshot of project application
